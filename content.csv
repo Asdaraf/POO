@@ -1,0 +1,17 @@
+1- HtmlReport
+2- ParagraphReport
+3- Salir
+*Pofavor Digite el número correspondente a su opción (1,2 o 3)*
+
+Command es un patrón de diseño de comportamiento que convierte solicitudes u operaciones simples en objetos.
+
+La conversión permite la ejecución diferida de comandos, el almacenamiento del historial de comandos, etc.
+
+Complejidad: @
+
+Popularidad: @@@
+
+Ejemplos de uso: El patrón Command es muy común en el código Python. La mayoría de las veces se utiliza como alternativa a las retrollamadas (callbacks) para parametrizar elementos UI con acciones. También se utiliza para poner tareas en cola, realizar el seguimiento del historial de operaciones, etc.
+
+Identificación: El patrón Command es reconocible por los métodos de comportamiento en un tipo de clase abstracta/interfaz (emisora) que invoca un método en una implementación de un tipo de clase abstracta/interfaz diferente (receptora) que la implementación del comando ha implementado durante su creación. Las clases de comando se limitan normalmente a acciones específicas.
+
